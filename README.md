@@ -1,6 +1,6 @@
 # totoboto4-Module-SDK
 
-This template is used for creating modules for the totoboto4 discord bot : https://github.com/totobono4/totoboto4
+This template is used for creating modules for the totoboto4 discord bot : https://github.com/totobono4/totoboto4  
 You can clone totoboto4 and add avery modules anyone will create with this.
 
 To create a module, juste create a repo generated from this template and run this command:  
