@@ -47,7 +47,6 @@ let channel;
  * @param {Array[2]} args This is the args of the message, [0] is the command, and [1] is everything else.
  */
 exports.process = async (message, args) => {
-  console.log(args);
   command = args[0];
   author = message.author;
   channel = message.channel;
