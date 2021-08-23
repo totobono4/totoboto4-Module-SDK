@@ -3,7 +3,7 @@
 This template is used for creating modules for the [totoboto4 Discord Bot](https://github.com/totobono4/totoboto4).  
 You can clone `totoboto4` and add any modules anyone will create with this.
 
-You need `node.js` to use this template, it includes `npm`, just download it from [there](https://nodejs.org/en/download/)
+You need `node.js` to use this template, it includes `npm`, just download it from [there](https://nodejs.org/en/download/).
 
 First, to create a module, just create a repo generated from this template, you **must** run this command before doing anything else:  
 `npm init`  
