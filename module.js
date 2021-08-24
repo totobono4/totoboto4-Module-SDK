@@ -1,7 +1,7 @@
 /**
  * These exports are the information of your module, the bot gonna use them for logs.
  */
-exports.name = 'SDK module';
+exports.name = 'SDK-module';
 exports.version = '1.0.0';
 
 /**
@@ -9,7 +9,7 @@ exports.version = '1.0.0';
  * The client is the actual bot if you want to use it.
  */
 const Discord = require('discord.js');
-const { client } = require("../../main.js");
+const { client } = require(`${process.env.TOTOBOTENV}/main.js`);
 
 /**
  * These exports are very important.
@@ -75,9 +75,9 @@ function ping() {
   const url = 'https://tenor.com/view/pong-video-game-atari-tennis-70s-gif-16894549';
   const gif = 'https://c.tenor.com/2gyJVMt_L6wAAAAC/pong-video-game.gif';
 
-  channel.send(
-    MessageEmbedBuilder(command, url, gif, 'pong!')
-  );
+  channel.send({
+    embeds: [MessageEmbedBuilder(command, url, gif, 'pong!')]
+  });
 }
 
 /**
