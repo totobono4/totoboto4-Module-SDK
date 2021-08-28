@@ -1,22 +1,8 @@
 {
-  "name": "totoboto4-module-sdk",
-  "version": "1.0.0",
-  "description": "This template is used for creating modules for the [totoboto4 Discord Bot](https://github.com/totobono4/totoboto4).   You can clone `totoboto4` and add any modules anyone will create with this.",
-  "main": "module.js",
   "scripts": {
     "start": "node node_modules/totoboto4/main.js SDK",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/totobono4/totoboto4-Module-SDK.git"
-  },
-  "author": "totobono4",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/totobono4/totoboto4-Module-SDK/issues"
-  },
-  "homepage": "https://github.com/totobono4/totoboto4-Module-SDK#readme",
   "devDependencies": {
     "discord.js": "^13.1.0",
     "dotenv": "^10.0.0",
