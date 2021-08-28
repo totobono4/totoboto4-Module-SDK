@@ -22,7 +22,8 @@ To find your bot token, go to [this](https://discord.com/developers/applications
 If you don't have an app, create one. Click on your app, go to the "Bot" section, here is your token.
 
 This template is already working with a `ping` command, so at this step, you can just try your module by running the `npm start` command.  
-The prefix for your bot is `sdk.`.
+The sdk is now started, his prefix is `sdk.`, so you should write `sdk.<command>` to use any command.
+You can run the `help` command to see all your implemented commands.
 
 After that, you can do anything you want with your project, install all npm packages you need and make your module.  
 Finally, add the module to the totoboto4 bot.  
