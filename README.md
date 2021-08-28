@@ -5,11 +5,25 @@ You can clone `totoboto4` and add any modules anyone will create with this.
 
 You need `node.js` to use this template, it includes `npm`, just download it from [there](https://nodejs.org/en/download/).
 
-First, to create a module, just create a repo generated from this template, you **must** run this command before doing anything else:  
-`npm init`  
-It will generate your project as a new npm package linked to your repo, this is important for including your module to the bot.
+Step 1: Use this template to generate you new repo.
 
-This project already working with a `ping` command, so at this step you can just try to implement your module directly and manage it to works before doing anything else.
+Step 2: Clone your repo and go in your project via a terminal.
 
-After that, you can do anything you want with your project, and add the module to the totoboto4 bot.  
+Step 3: Run the `npm init -y` command to generate your project as a new npm package linked to your repo, this is important for including your module to the bot.
+
+Step 4: Run the `npm install` command to install the base dependencies.
+
+Step 5: You need a token as environment variable, for this, create a `.env` file at the root of the project, and write the text below:
+```.env
+RELEASE_TOKEN=<Here your release token>
+```
+The `Release token` is the token from your bot, just put it there and the module will totally work.
+To find your bot token, go to [this](https://discord.com/developers/applications) page and login with your discord account.  
+If you don't have an app, create one. Click on your app, go to the "Bot" section, here is your token.
+
+This template is already working with a `ping` command, so at this step, you can just try your module by running the `npm start` command.  
+The prefix for your bot is `sdk.`.
+
+After that, you can do anything you want with your project, install all npm packages you need and make your module.  
+Finally, add the module to the totoboto4 bot.  
 See how to add a module to the bot on the [totoboto4](https://github.com/totobono4/totoboto4) repo.
