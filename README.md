@@ -15,7 +15,7 @@ Step 4: Run the `npm install` command to install the base dependencies.
 
 Step 5: You need a token as environment variable, for this, create a `.env` file at the root of the project, and write the text below:
 ```.env
-RELEASE_TOKEN=<Here your release token>
+SDK_TOKEN=<Here your release token>
 ```
 The `Release token` is the token from your bot, just put it there and the module will totally work.
 To find your bot token, go to [this](https://discord.com/developers/applications) page and login with your discord account.  
