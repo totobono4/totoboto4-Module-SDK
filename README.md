@@ -9,7 +9,7 @@ Step 1: Use this template to generate you new repo.
 
 Step 2: Clone your repo and go in your project via a terminal.
 
-Step 3: Run the `npm init -y --scoped=totoboto4-module` command to generate your project as a new npm package linked to your repo, this is important for including your module to the bot.
+Step 3: Run the `npm init -y --scope=@totoboto4-module` command to generate your project as a new npm package linked to your repo, this is important for including your module to the bot.
 
 Step 4: Run the `npm install` command to install the base dependencies.
 
