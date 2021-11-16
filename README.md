@@ -25,6 +25,8 @@ This template is already working with a `ping` command, so at this step, you can
 The sdk is now started, his prefix is `sdk.`, so you should write `sdk.<command>` to use any command.
 You can run the `help` command to see all your implemented commands.
 
+Make sure to commit and push your project at this point, so you can already implement it to [totoboto4](https://github.com/totobono4/totoboto4).
+
 After that, you can do anything you want with your project, install all npm packages you need and make your module.  
 Finally, add the module to the totoboto4 bot.  
 See how to add a module to the bot on the [totoboto4](https://github.com/totobono4/totoboto4) repo.
