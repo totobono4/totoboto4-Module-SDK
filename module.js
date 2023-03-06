@@ -1,4 +1,4 @@
-const { EmbedBuilder } = require('discord.js');
+const { Client, EmbedBuilder, MessageFlags, SlashCommandSubcommandBuilder } = require('discord.js');
 
 class Module {
   constructor() {
@@ -11,10 +11,27 @@ class Module {
           name: 'ping',
           description: 'Replies with Pong!',
           nsfw: false
-        },
-        execute: (interaction) => this.ping(interaction)
+        }
       }
     ]
+  }
+
+  /**
+   * 
+   * @param {Client} client 
+   */
+  launch(client) {
+    client.on("interactionCreate", (interaction) => {
+      if (!interaction.isChatInputCommand()) return
+
+      switch (interaction.commandName) {
+        case 'ping':
+          this.ping(interaction)
+          break;
+        default:
+          break;
+      }
+    })
   }
 
   ping(interaction) {
