@@ -1,4 +1,4 @@
-const { Client, EmbedBuilder, MessageFlags, SlashCommandSubcommandBuilder } = require('discord.js');
+const { Client, EmbedBuilder, MessageFlags, SlashCommandBuilder, SlashCommandSubcommandBuilder } = require('discord.js');
 
 class Module {
   constructor() {
@@ -6,13 +6,9 @@ class Module {
     this.version = '1.0.0';
 
     this.commands = [
-      {
-        application_command: {
-          name: 'ping',
-          description: 'Replies with Pong!',
-          nsfw: false
-        }
-      }
+      new SlashCommandBuilder()
+      .setName('ping')
+      .setDescription('Replies with Pong!')
     ]
   }
 
