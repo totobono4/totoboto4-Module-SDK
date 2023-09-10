@@ -6,7 +6,8 @@
   "dependencies": {
     "discord.js": "^14.9.0",
     "dotenv": "^16.0.3",
-    "git-tag-version": "^1.3.1"
+    "git-tag-version": "^1.3.1",
+    "totoboto4-core": "github:totobono4/totoboto4-core"
   },
   "devDependencies": {
     "eslint": "^8.38.0",
