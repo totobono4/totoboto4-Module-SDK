@@ -9,9 +9,7 @@ class SDKModule extends Module {
     this.name = 'SDK-module'
     this.version = '1.0.0'
 
-    this.commands = [
-      new SlashCommandBuilder().setName("ping").setDescription("ping command")
-    ]
+    this.commands = [] // Commands here
 
     this.dependencies = [] // If dependencies, module names here
   }
@@ -26,7 +24,7 @@ class SDKModule extends Module {
     const client = data.client
 
     client.on(Events.InteractionCreate, (interaction) => {
-      debug.debug(debug.layers.SDK, debug.types.Debug, "COMMAND !")
+
     })
   }
 }
