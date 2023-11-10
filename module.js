@@ -3,8 +3,8 @@ const { Module, Debugger } = require('totoboto4-core')
 const debug = new Debugger()
 
 class SDKModule extends Module {
-  constructor () {
-    super()
+  constructor (modulator) {
+    super(modulator)
 
     this.name = 'SDK-module'
     this.version = '1.0.0'
@@ -29,4 +29,4 @@ class SDKModule extends Module {
   }
 }
 
-module.exports = new SDKModule()
+module.exports = SDKModule
